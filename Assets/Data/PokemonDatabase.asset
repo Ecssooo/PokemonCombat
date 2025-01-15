@@ -1,0 +1,247 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21931c54e48d40a44b44f899905c3a1e, type: 3}
+  m_Name: PokemonDatabase
+  m_EditorClassIdentifier: 
+  datas:
+  - name: Moumouton
+    sprite: {fileID: 21300000, guid: 108039b81bb13374498e243d3267187d, type: 3}
+    infos:
+      name: Moumouton
+      number: 831
+      size: 0.6m
+      weight: 6kg
+      ability: Fuite
+      description: "Son pelage fris\xE9 est doux et rebondi comme un coussin. Une
+        telle toison le prot\xE8gerait m\xEAme s'il chutait d'une falaise. Le meilleur
+        en gros"
+      types: 00000000
+      faiblesse: 06000000
+      resistance: 
+    stats:
+      hp: 3
+      attack: 3
+      defense: 4
+      specialAttack: 3
+      specialDefense: 3
+      speed: 3
+    attacks: 0100000009000000
+  - name: Bulbizarre
+    sprite: {fileID: 21300000, guid: 636cc112fb9adb44994c19947a1eb65d, type: 3}
+    infos:
+      name: Bulbizarre
+      number: 1
+      size: 0.7m
+      weight: 6.9kg
+      ability: Engrais
+      description: "Au d\xE9but de sa vie, il se nourrit des nutriments accumul\xE9s
+        dans la graine sur son dos. Cela lui permet de grandir."
+      types: 0400000007000000
+      faiblesse: 0100000005000000090000000a000000
+      resistance: 
+    stats:
+      hp: 3
+      attack: 3
+      defense: 3
+      specialAttack: 4
+      specialDefense: 4
+      speed: 3
+    attacks: 0000000004000000
+  - name: Herbizarre
+    sprite: {fileID: 21300000, guid: b822e4d52d8409f4f9dfa3c7a6876bbd, type: 3}
+    infos:
+      name: Herbizarre
+      number: 2
+      size: 1m
+      weight: 13kg
+      ability: Engrais
+      description: "Plus il s\u2019expose au soleil, plus il emmagasine d\u2019\xE9nergie,
+        ce qui permet au bourgeon sur son dos de se d\xE9velopper."
+      types: 0400000007000000
+      faiblesse: 0100000005000000090000000a000000
+      resistance: 
+    stats:
+      hp: 4
+      attack: 4
+      defense: 4
+      specialAttack: 5
+      specialDefense: 5
+      speed: 4
+    attacks: 0000000004000000
+  - name: Florizarre
+    sprite: {fileID: 21300000, guid: 038d19be441a4374d9ca4b8f143a2df4, type: 3}
+    infos:
+      name: Florizzare
+      number: 3
+      size: 2m
+      weight: 100kg
+      ability: Engrais
+      description: "Ce Pokemon est capable de transformer la lumi\xE8re du soleil
+        en \xE9nergie. Il est donc encore plus fort en \xE9t\xE9"
+      types: 0400000007000000
+      faiblesse: 0100000005000000090000000a000000
+      resistance: 
+    stats:
+      hp: 5
+      attack: 5
+      defense: 5
+      specialAttack: 6
+      specialDefense: 6
+      speed: 5
+    attacks: 0400000007000000
+  - name: "Salam\xE8che"
+    sprite: {fileID: 21300000, guid: 25fb41fdd63a03e44aa30e61a5fbcc60, type: 3}
+    infos:
+      name: "Salam\xE8che"
+      number: 4
+      size: 0.6m
+      weight: 8.5kg
+      ability: Brasier
+      description: "La flamme au bout de sa queue repr\xE9sente sa vitalit\xE9. Quand
+        Salam\xE8che n\u2019est pas au meilleur de sa forme, elle faiblit."
+      types: 01000000
+      faiblesse: 02000000080000000c000000
+      resistance: 
+    stats:
+      hp: 3
+      attack: 4
+      defense: 3
+      specialAttack: 4
+      specialDefense: 3
+      speed: 4
+    attacks: 0100000003000000
+  - name: Reptincel
+    sprite: {fileID: 21300000, guid: 7e29c3e8317c1b7408beedb9dd726255, type: 3}
+    infos:
+      name: Reptincel
+      number: 5
+      size: 1.1m
+      weight: 19kg
+      ability: Brasier
+      description: "En agitant sa queue enflamm\xE9e, il peut \xE9lever la temp\xE9rature
+        ambiante de mani\xE8re exponentielle et ainsi tourmenter ses adversaires."
+      types: 01000000
+      faiblesse: 02000000080000000c000000
+      resistance: 
+    stats:
+      hp: 4
+      attack: 4
+      defense: 4
+      specialAttack: 5
+      specialDefense: 4
+      speed: 5
+    attacks: 0100000003000000
+  - name: Dracaufeu
+    sprite: {fileID: 21300000, guid: e5a0d0f729d0b1b4c932f1e8a234996b, type: 3}
+    infos:
+      name: Dracaufeu
+      number: 6
+      size: 1.7m
+      weight: 90.5kg
+      ability: Brasier
+      description: "Quand Dracaufeu s\u2019\xE9nerve r\xE9ellement, la flamme au
+        bout de sa queue devient bleue."
+      types: 0100000009000000
+      faiblesse: 02000000030000000c000000
+      resistance: 
+    stats:
+      hp: 5
+      attack: 5
+      defense: 5
+      specialAttack: 7
+      specialDefense: 5
+      speed: 6
+    attacks: 0300000006000000
+  - name: Carapuce
+    sprite: {fileID: 21300000, guid: 4a670c237b6655649adac17b5921cefb, type: 3}
+    infos:
+      name: Carapuce
+      number: 7
+      size: 0.5m
+      weight: 9kg
+      ability: Torrent
+      description: "Ce Pok\xE9mon crache une \xE9cume redoutable. Apr\xE8s sa naissance,
+        son dos gonfle et durcit pour former une carapace."
+      types: 02000000
+      faiblesse: 0300000004000000
+      resistance: 
+    stats:
+      hp: 3
+      attack: 3
+      defense: 4
+      specialAttack: 3
+      specialDefense: 4
+      speed: 3
+    attacks: 0000000005000000
+  - name: Carabaffe
+    sprite: {fileID: 21300000, guid: 1e914259ca31f1442a4de08aa5655896, type: 3}
+    infos:
+      name: Carabaffe
+      number: 8
+      size: 1m
+      weight: 22.5kg
+      ability: Torrent
+      description: "Sa longue queue touffue est un symbole de long\xE9vit\xE9. Les
+        personnes \xE2g\xE9es appr\xE9cient donc particuli\xE8rement ce Pok\xE9mon."
+      types: 02000000
+      faiblesse: 0400000003000000
+      resistance: 
+    stats:
+      hp: 4
+      attack: 4
+      defense: 5
+      specialAttack: 4
+      specialDefense: 5
+      speed: 4
+    attacks: 0000000005000000
+  - name: Tortank
+    sprite: {fileID: 21300000, guid: 9bda9fdb76829fc4880b58c3156cb326, type: 3}
+    infos:
+      name: Tortank
+      number: 9
+      size: 1.6m
+      weight: 85.5kg
+      ability: Torrent
+      description: "Il augmente d\xE9lib\xE9r\xE9ment sa masse corporelle pour contrer
+        le recul de ses puissants jets d'eau"
+      types: 02000000
+      faiblesse: 0400000003000000
+      resistance: 
+    stats:
+      hp: 5
+      attack: 5
+      defense: 6
+      specialAttack: 5
+      specialDefense: 7
+      speed: 5
+    attacks: 0500000008000000
+  - name: Chenipan
+    sprite: {fileID: 21300000, guid: 8faaf542b91faa94cbab4af240519a93, type: 3}
+    infos:
+      name: Chenipan
+      number: 10
+      size: 0.3m
+      weight: 2.9kg
+      ability: Essaim
+      description: "Pour se prot\xE9ger, il \xE9met par ses antennes une odeur naus\xE9abonde
+        qui fait fuir ses ennemis."
+      types: 0b000000
+      faiblesse: 01000000090000000c000000
+      resistance: 060000000400000008000000
+    stats:
+      hp: 3
+      attack: 2
+      defense: 3
+      specialAttack: 2
+      specialDefense: 2
+      speed: 3
+    attacks: 

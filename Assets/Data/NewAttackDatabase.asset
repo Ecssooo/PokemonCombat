@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76cf8a029972aa94e9de6868ae6e2d0d, type: 3}
+  m_Name: NewAttackDatabase
+  m_EditorClassIdentifier: 
+  AttackDatas:
+  - id: 0
+    _name: Charge
+    categorie: 0
+    type: 0
+    dgt: 1
+  - id: 1
+    _name: Griffe
+    categorie: 0
+    type: 0
+    dgt: 1
+  - id: 2
+    _name: "Flam\xE9che"
+    categorie: 1
+    type: 1
+    dgt: 2
+  - id: 3
+    _name: Fouet-Liane
+    categorie: 0
+    type: 4
+    dgt: 2
+  - id: 4
+    _name: Bulle d'eau
+    categorie: 0
+    type: 2
+    dgt: 2
+  - id: 5
+    _name: "D\xE9flagration"
+    categorie: 1
+    type: 1
+    dgt: 3
+  - id: 6
+    _name: Lance-Soleil
+    categorie: 1
+    type: 4
+    dgt: 3
+  - id: 7
+    _name: Hydrocanon
+    categorie: 1
+    type: 2
+    dgt: 3
+  - id: 8
+    _name: Ultra-Laser
+    categorie: 1
+    type: 0
+    dgt: 5
